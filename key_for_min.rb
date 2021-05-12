@@ -10,8 +10,10 @@ if name_hash != {}
     while values.length > 1
     if values[0] < values[-1]
       values.pop
+      values
     elsif values[0] > values[-1]
       values.shift
+      values
     else values
   end
   value = values[0]
