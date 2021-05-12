@@ -8,10 +8,11 @@ if name_hash != {}
     values << value
   end
     while values.length > 1
-    if  values[0] < values[-1]
+    if values[0] < values[-1]
       values.pop
-    else values[0] > values[-1]
+    elsif values[0] > values[-1]
       values.shift
+    else values
   end
   value = values[0]
 return name_hash.key(value)
