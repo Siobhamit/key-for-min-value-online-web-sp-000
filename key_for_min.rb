@@ -11,7 +11,8 @@ def key_for_min_value(name_hash)
       values.pop
     else values[0] > values[-1]
       values.shift
-end
-name_hash.key(values[0])
+  end
+  value = values[0]
+name_hash.key(value)
   end
 end
