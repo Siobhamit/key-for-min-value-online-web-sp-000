@@ -16,6 +16,6 @@ if name_hash != {}
   value = values[0]
 name_hash.key(value)
   end
-end
 else nil
+end
 end
