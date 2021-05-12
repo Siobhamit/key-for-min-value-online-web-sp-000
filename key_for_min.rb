@@ -17,6 +17,4 @@ if name_hash.!empty?
   v = values.at(0)
 return name_hash.key(v)
   end
-else nil
-end
 end
