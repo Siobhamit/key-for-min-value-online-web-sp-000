@@ -16,4 +16,3 @@ def key_for_min_value(name_hash)
   v = values.at(0)
 return name_hash.key(v)
   end
-end
