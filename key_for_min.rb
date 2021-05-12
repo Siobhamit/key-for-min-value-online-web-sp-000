@@ -14,7 +14,7 @@ if name_hash != {}
       values.shift
   end
   value = values[0]
-name_hash.key(value)
+return name_hash.key(value)
   end
 else nil
 end
